@@ -1,7 +1,8 @@
-package org.example;
+package laba2;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        double a = ExpressionParsing.resolve(("((4+4)*(5-2))/6"));
+        System.out.println(a);
     }
 }
